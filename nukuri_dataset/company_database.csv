@@ -1,0 +1,21 @@
+company_name,industry,skills_required,experience,no_of_members,location
+TechNova Solutions,IT Services,"Java, Spring Boot, SQL",2-5 yrs,150,Chennai
+BrightCode Labs,Software Development,"Python, Django, AWS",1-3 yrs,80,Bengaluru
+Zentra Systems,Cloud Computing,"AWS, Azure, DevOps, Docker",3-6 yrs,220,Hyderabad
+NextGen Analytics,Data Science,"Python, ML, Pandas, SQL",2-4 yrs,95,Coimbatore
+PixelForge Studios,UI/UX Design,"Figma, Adobe XD, HTML/CSS",1-3 yrs,40,Chennai
+CyberShield Infotech,Cybersecurity,"Network Security, Cryptography, SIEM",3-5 yrs,60,Pune
+Quantum Byte Corp,Software Product,"C++, Data Structures, Algorithms",2-6 yrs,300,Bengaluru
+CloudPeak Technologies,Cloud & Infra,"Kubernetes, Terraform, GCP",3-7 yrs,130,Chennai
+Innovate Minds Pvt Ltd,AI/ML,"TensorFlow, PyTorch, NLP",2-5 yrs,70,Coimbatore
+Webnest Solutions,Web Development,"React, Node.js, MongoDB",1-4 yrs,55,Salem
+Fintrix Global,FinTech,"Java, Spring, REST APIs, SQL",3-6 yrs,180,Chennai
+DataSphere Inc,Big Data,"Hadoop, Spark, Scala",3-5 yrs,110,Hyderabad
+Skyline Networks,Networking,"CCNA, Routing & Switching, VPN",2-4 yrs,65,Trichy
+Appcraft Studio,Mobile App Development,"Flutter, Kotlin, Firebase",1-3 yrs,45,Bengaluru
+Vertex Compilers Pvt Ltd,Compiler & Systems,"C, LLVM, Assembly, OS Concepts",3-6 yrs,50,Chennai
+Insight Consulting Group,Business Analytics,"Power BI, Excel, SQL",1-3 yrs,90,Madurai
+EduSpark Technologies,EdTech,"Java, React, MySQL",1-3 yrs,60,Coimbatore
+GreenGrid Energy Systems,IoT / Embedded,"Embedded C, IoT, Arduino",2-5 yrs,75,Chennai
+Orbit Robotics Pvt Ltd,Robotics & AI,"ROS, Python, Computer Vision",2-4 yrs,38,Salem
+Vantage Retail Solutions,Retail Tech,"Java, Microservices, Kafka",3-5 yrs,140,Bengaluru
