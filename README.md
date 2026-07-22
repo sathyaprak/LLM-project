@@ -1,32 +1,10 @@
-# 🏢 Company Database Chatbot
+# LLM Poject
 
 An AI-powered Company Database Chatbot built with **Python**, **Groq Llama 3.1 8B Instant**, and **TF-IDF Retrieval**. The chatbot retrieves relevant company information from a CSV database using semantic similarity and generates intelligent, context-aware responses with the Groq API.
 
 ---
-
-## 📌 Overview
-
-This project is a Retrieval-Augmented Generation (RAG)-style chatbot that enables users to ask natural language questions about companies stored in a CSV database.
-
-Instead of sending the entire dataset to the LLM, the chatbot retrieves the most relevant company records using **TF-IDF Vectorization** and **Cosine Similarity**, then provides the retrieved context to **Groq's Llama 3.1 8B Instant** model to generate accurate responses.
-
----
-
-## ✨ Features
-
-- 🤖 AI-powered chatbot using Groq Llama 3.1
-- 📊 Company information stored in CSV
-- 🔍 TF-IDF based semantic search
-- 📈 Cosine Similarity retrieval
-- ⚡ Fast inference using Groq API
-- 💬 Multi-turn conversation support
-- 🧠 Context-aware responses
-- 🛡️ Hallucination reduction using retrieved context
-- 🖥️ Simple Command Line Interface
-- 📂 Easy to customize with your own dataset
-
----
-
+This repository showcases practical Large Language Model (LLM) projects that leverage modern AI frameworks to build intelligent applications. It includes chatbots, document intelligence systems, RAG pipelines, prompt engineering, and NLP solutions developed with Python and industry-standard tools.
+tomize with your own dataset
 ## 🛠️ Technologies Used
 
 - Python 3.x
@@ -46,9 +24,8 @@ Instead of sending the entire dataset to the LLM, the chatbot retrieves the most
 ```
 Company-Database-Chatbot
 │
-├── company_database.csv
+├── database.csv
 ├── chatbot.py
-├── requirements.txt
 ├── README.md
 └── .gitignore
 ```
