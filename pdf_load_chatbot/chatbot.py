@@ -1,23 +1,13 @@
 import PyPDF2
 from groq import Groq
-
-# ==========================
-# GROQ API KEY
-# ==========================
 GROQ_API_KEY = "YOUR API KEY"
 
 client = Groq(
     api_key=GROQ_API_KEY
 )
 
-# ==========================
-# PDF FILE
-# ==========================
 BOOK_FILE = "book1.pdf"
 
-# ==========================
-# READ PDF
-# ==========================
 def read_pdf(file):
     text = ""
 
@@ -37,9 +27,6 @@ book_content = read_pdf(BOOK_FILE)
 print("✅ PDF Loaded Successfully!")
 print("Type 'exit' to quit.")
 
-# ==========================
-# CHAT LOOP
-# ==========================
 while True:
 
     question = input("\nYou: ")
