@@ -1,0 +1,129 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning", "good evening", "what's up", "yo", "hiya"],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there! What can I do for you?",
+        "Hey! Good to see you."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you", "see ya", "catch you later", "farewell", "i am leaving", "gtg", "got to go"],
+      "responses": [
+        "Goodbye! Have a great day.",
+        "See you later!",
+        "Bye! Come back anytime."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thanks", "thank you", "thx", "appreciate it", "much appreciated", "cheers"],
+      "responses": [
+        "You're welcome!",
+        "Anytime!",
+        "Happy to help."
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": ["what is your name", "who are you", "what should i call you", "your name"],
+      "responses": [
+        "I'm RuleBot, a simple pattern-matching chatbot.",
+        "You can call me RuleBot!"
+      ]
+    },
+    {
+      "tag": "how_are_you",
+      "patterns": ["how are you", "how are you doing", "how is it going", "how do you feel"],
+      "responses": [
+        "I'm just a program, but I'm running smoothly! How about you?",
+        "Doing great, thanks for asking!"
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": ["how old are you", "what is your age", "when were you created"],
+      "responses": [
+        "I don't have an age — I'm just code that runs whenever you start me!",
+        "Ageless, really. I'm a script, not a person."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": ["help", "i need help", "can you help me", "assist me", "support"],
+      "responses": [
+        "Sure! You can ask me about the weather, jokes, my name, or just chat. Type 'menu' to see options.",
+        "I can chat about a few topics — try asking for a joke, the time, or just say hello!"
+      ]
+    },
+    {
+      "tag": "menu",
+      "patterns": ["menu", "options", "what can you do", "commands", "help me choose"],
+      "responses": [
+        "Here's what I can do: greetings, jokes, tell you the time/date, weather chat, thanks/goodbye, and basic Q&A. Just type naturally!"
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": ["tell me a joke", "make me laugh", "joke", "know any jokes", "say something funny"],
+      "responses": [
+        "Why don't scientists trust atoms? Because they make up everything!",
+        "I told my computer I needed a break, and it said no problem — it froze immediately.",
+        "Why do programmers prefer dark mode? Because light attracts bugs."
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["what is the weather", "is it raining", "weather today", "is it sunny", "temperature outside"],
+      "responses": [
+        "I can't check live weather since I'm not connected to the internet, but I hope it's nice outside!",
+        "I don't have live weather data, sorry — try a weather app for that."
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": ["what time is it", "current time", "tell me the time"],
+      "responses": ["__TIME__"]
+    },
+    {
+      "tag": "date",
+      "patterns": ["what is the date", "today's date", "what day is it"],
+      "responses": ["__DATE__"]
+    },
+    {
+      "tag": "creator",
+      "patterns": ["who made you", "who created you", "who built you", "who is your developer"],
+      "responses": [
+        "I was built as a simple example of a rule-based chatbot — no AI involved, just pattern matching!"
+      ]
+    },
+    {
+      "tag": "compliment",
+      "patterns": ["you are smart", "good job", "you are helpful", "nice bot", "well done"],
+      "responses": [
+        "Thank you! I'm just following rules, but I appreciate it.",
+        "Glad I could help!"
+      ]
+    },
+    {
+      "tag": "insult",
+      "patterns": ["you are dumb", "you are useless", "you are stupid", "bad bot"],
+      "responses": [
+        "I'm sorry you feel that way — I'm a simple rule-based bot, so I have limits!",
+        "Fair enough, I'm not very smart — just following patterns."
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": [
+        "I'm not sure I understand. Could you rephrase that?",
+        "Sorry, I don't have a rule for that yet. Try 'menu' to see what I can do.",
+        "Hmm, I didn't quite get that."
+      ]
+    }
+  ]
+}
